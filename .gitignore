@@ -3,3 +3,4 @@ node_modules
 .idea
 .pnp.cjs
 .pnp.loader.mjs
+**/.DS_Store
