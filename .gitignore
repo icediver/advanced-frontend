@@ -1,6 +1,7 @@
 /build
 node_modules
 .idea
+.yarn
 .pnp.cjs
 .pnp.loader.mjs
 **/.DS_Store
