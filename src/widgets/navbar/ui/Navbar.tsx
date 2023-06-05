@@ -10,20 +10,7 @@ interface INavbarProps {
 const Navbar: FC<INavbarProps> = ({ className }) => (
   <div className={classNames(styles.navbar, {}, [])}>
     <div className={styles.links}>
-      <AppLink
-        theme={AppLinkTheme.SECONDARY}
-        to="/"
-        className={styles.mainLink}
-      >
-        Main Page
-      </AppLink>
-      <AppLink
-        theme={AppLinkTheme.SECONDARY}
-        to="/about"
-      >
-        About
-      </AppLink>
-
+      /
     </div>
   </div>
 );
